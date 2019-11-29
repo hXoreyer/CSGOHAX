@@ -10,7 +10,7 @@ int main()
 	while (!Mem.Process("csgo.exe"));
 	clientDll = Mem.Module("client_panorama.dll");
 
-	cout << "F6 run glow\n F7 run trigger\n";
+	cout << "F6 run glow\nF7 run trigger\n";
 	MainForm *mainform = new MainForm();
 	mainform->EventLoop();
 	delete mainform;
